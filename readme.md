@@ -27,7 +27,7 @@ CREATE (BancoDeDados:Disciplina {nome_disc:'Banco de Dados'})
 
 9. Crie nó _Curso_: `CREATE (CienciaDaComputacao:Curso {nome_curso:'Ciência da Computação'})`
 
-10. Crie relacionamento entre os nós: 
+10. Crie relacionamento entre os nós: <br>
 `CREATE (Professora)-[:Ensina]->(BancoDeDados)` `CREATE (Professora)-[:Orienta]->(TCC)` 
 
 `CREATE (Aluna)-[:Estuda]->(CienciaDaComputacao)` `CREATE (BancoDeDados)-[:Compoe]->(CienciaDaComputacao)` `return *`
